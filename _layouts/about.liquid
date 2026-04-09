@@ -57,17 +57,12 @@ layout: default
     {% endif %}
 
     <!-- Selected papers -->
-    {%- assign selected_pubs = site.scholar | where_exp: "pub", "pub.keywords contains 'selected'" -%}
-    {%- for pub in selected_pubs limit:5 -%}
-      <!-- 显示论文 -->
-    {%- endfor -%}
-    
-    <!-- {% if page.selected_papers %} -->
-      <!-- <h2> -->
-        <!-- <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a> -->
-      <!--  </h2> -->
-     <!-- {% include selected_papers.liquid %} -->
-    <!-- {% endif %}  -->
+    {% if page.selected_papers %} 
+     <h2>
+     <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a> 
+     </h2>
+     {% include selected_papers.liquid %}
+    {% endif %}
 
     <!-- Social -->
     {% if page.social %}
