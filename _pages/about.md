@@ -28,7 +28,7 @@ latest_posts:
 ---
 
 
-Jie Zhu currently is a fifth-year Ph.D. candidate in the School of Computer Science, Peking University, supervised by tenured Associate Professor [Leye Wang](https://wangleye.github.io/). Prior to that, he obtained his bachelor degree in Beihang University in 2021. His research interests mainly involve Multi-modality large language model (MLLM), e.g., visual perception, generative models, and their unification, etc, and AI security, e.g., membership inference and data privacy. He has published six first-author papers (5 CCF-A) including CCS, ICLR, NeurIPS, ASE, IEEE TSE, and TMLR. <img width="432" height="100" alt="image" src="https://github.com/user-attachments/assets/17b5c585-655e-48e2-9fdc-c88495204776" />
+Jie Zhu currently is a fifth-year Ph.D. candidate in the School of Computer Science, Peking University, supervised by tenured Associate Professor [Leye Wang](https://wangleye.github.io/). Prior to that, he obtained his bachelor degree in Beihang University in 2021. His research interests mainly involve Multi-modality large language model (MLLM), e.g., visual perception, generative models, and their unification, etc, and AI security, e.g., membership inference and data privacy. He has published six first-author papers (5 CCF-A) including CCS, ICLR, NeurIPS, ASE, IEEE TSE, and TMLR. 
 
 
 #Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
