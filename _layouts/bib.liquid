@@ -1,8 +1,3 @@
-{%- assign entries = site.scholar -%}
-{%- if page.selected_only == true -%}
-  {%- assign entries = site.scholar | where_exp: "pub", "pub.keywords contains 'selected'" -%}
-{%- endif -%}
-
 {%- for entry in entries -%}
 <div class="row">
   {% if site.enable_publication_thumbnails %}
