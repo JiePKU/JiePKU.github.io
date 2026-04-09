@@ -147,7 +147,12 @@
         </i>
       {% endif %}
     </div>
-
+    {% assign selected_pubs = site.scholar["@* | keyword:selected"] %}
+      <ul>
+        {% for paper in selected_pubs %}
+          <li>{{ paper | bibtex }}</li>
+        {% endfor %}
+      </ul>
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
