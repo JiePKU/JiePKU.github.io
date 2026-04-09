@@ -10,7 +10,7 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <!-- <p>555 your office number</p>  <p>123 your address street</p> -->
-    <p>Beijing, China</p>
+    <p>Haidian district, Beijing, China</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
