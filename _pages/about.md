@@ -27,7 +27,7 @@ latest_posts:
 ---
 
 
-Jie Zhu currently is a fifth-year Ph.D. candidate in the School of Computer Science, Peking University, supervised by tenured Associate Professor [Leye Wang](https://wangleye.github.io/). Prior to that, he obtained his bachelor degree in Beihang University in 2021.
+Jie Zhu currently is a fifth-year Ph.D. candidate in the School of Computer Science, Peking University, supervised by tenured Associate Professor [Leye Wang](https://wangleye.github.io/). Prior to that, he obtained his bachelor degree from Beihang University in 2021.
 
 His research interests mainly involve multi-modality large language model (MLLM), e.g., visual perception, generative models, and their unification, and AI security, e.g., membership inference and data privacy. 
 
