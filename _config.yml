@@ -174,7 +174,6 @@ kramdown:
 include: ["_pages", "_scripts"]
 exclude:
   - bin/
-  - _pages/blog.md
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
@@ -194,8 +193,8 @@ exclude:
   - readme_preview/
   - vendor
   - _pages/repositories.md
+  - _pages/blog.md
   - _pages/books.md
-  - _pages/people.md
   - _pages/cv.md
   - _pages/teaching.md
 keep_files:
