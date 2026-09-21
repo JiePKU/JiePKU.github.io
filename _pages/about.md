@@ -31,7 +31,7 @@ Jie Zhu obtained his Ph.D. from the School of Computer Science at Peking Univers
 
 His research interests mainly involve multi-modality large language model (MLLM), e.g., visual perception, generative models, and their unification, and AI security, e.g., membership inference and data privacy. 
 
-He previously interned at Megvii Technology (2020.12-2021.12), Baidu VIS (2022.7-2025.5), and Meituan(2025.5-2026.3) and has published six first-author papers (5 CCF-A) including CCS, ICLR, NeurIPS, ASE, IEEE TSE, and TMLR. 
+He previously interned at Megvii Technology (2020.12-2021.12), Baidu VIS (2022.7-2025.5), and Meituan(2025.5-2026.3) and has published seven first-author papers (6 CCF-A) including IEEE TPAMI, CCS, ICLR, NeurIPS, ASE, IEEE TSE, and TMLR. 
 
 
 <!-- #Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. #Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.-->
