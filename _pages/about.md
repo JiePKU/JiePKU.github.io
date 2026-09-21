@@ -29,7 +29,9 @@ latest_posts:
 
 Jie Zhu obtained his Ph.D. from the School of Computer Science at Peking University in 2026, under the supervision of tenured Associate Professor [Leye Wang](https://wangleye.github.io/). Prior to that, he obtained his bachelor degree from Beihang University in 2021.
 
-During his Ph.D., his research primarily focused on multimodal large language models (MLLMs), including visual perception, generative models, and their unification, as well as AI security, with an emphasis on membership inference and data privacy. He previously interned at Megvii Technology (Dec. 2020–Dec. 2021), Baidu VIS (Jul. 2022–May 2025), and Meituan (May 2025–Mar. 2026). He has published seven first-author papers, including six in CCF-A venues, with publications appearing in IEEE TPAMI, ACM CCS, ICLR, NeurIPS, ASE, IEEE TSE, and TMLR.
+During his Ph.D., his research primarily focused on multimodal large language models (MLLMs), including visual perception, generative models, and their unification, as well as AI security, with an emphasis on membership inference and data privacy. 
+
+He previously interned at Megvii Technology (Dec. 2020–Dec. 2021), Baidu VIS (Jul. 2022–May 2025), and Meituan (May 2025–Mar. 2026). He has published seven first-author papers, including six in CCF-A venues, with publications appearing in IEEE TPAMI, ACM CCS, ICLR, NeurIPS, ASE, IEEE TSE, and TMLR.
 
 Now, his current research interests focus on code agents, on-policy distillation (OPD), and recursive self-improvement (RSI) for advancing the capabilities of foundation models. Feel free to contact me.
 
