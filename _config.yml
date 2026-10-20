@@ -169,7 +169,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages", "_scripts"]
+include: ["_pages", "_scripts", "_pages/blog.md"]
 exclude:
   - bin/
   - CONTRIBUTING.md
@@ -187,7 +187,6 @@ exclude:
   - package-lock.json
   - _pages/about_einstein.md
   - _pages/repositories.md
-  - _pages/blog.md
   - _pages/projects.md
   - _pages/books.md
   - _pages/profiles.md
