@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-a-post-with-plotly-js",
+        },{id: "post-scalable-architecture-autodiscovery-leading-to-the-next-quot-transformer-quot-era",
+        
+          title: "Scalable Architecture Autodiscovery: Leading to the Next &quot;Transformer&quot; Era",
+        
+        description: "An architecture-design problem with no reference answer - how the task was built, and one real run.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/scalable-architecture-autodiscovery/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
