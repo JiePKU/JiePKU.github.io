@@ -1005,6 +1005,48 @@ html.transition *:after {
     h2 + h3 {
       margin-top: 1.2rem;
     }
+
+    // Booktabs-style tables: clear rules instead of bare columns of text
+    table {
+      width: 100%;
+      margin: 1.2rem 0 1.8rem;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+      display: block;
+      overflow-x: auto;
+
+      thead th {
+        padding: 0.5rem 1rem 0.5rem 0;
+        font-weight: 600;
+        vertical-align: bottom;
+        border-top: 2px solid var(--global-text-color);
+        border-bottom: 1px solid var(--global-text-color);
+      }
+
+      tbody td {
+        padding: 0.55rem 1rem 0.55rem 0;
+        vertical-align: top;
+        border-bottom: 1px solid var(--global-divider-color);
+      }
+
+      tbody tr:last-child td {
+        border-bottom: 2px solid var(--global-text-color);
+      }
+
+      tbody tr:hover td {
+        background-color: var(--global-code-bg-color);
+      }
+
+      td:first-child,
+      th:first-child {
+        padding-left: 0.1rem;
+      }
+
+      td:last-child,
+      th:last-child {
+        padding-right: 0.1rem;
+      }
+    }
   }
 }
 
