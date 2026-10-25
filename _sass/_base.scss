@@ -917,8 +917,8 @@ pre {
   // Responsive behavior for code blocks
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  white-space: pre;
-  word-wrap: normal;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 
   pre,
   code {
@@ -926,6 +926,10 @@ pre {
     border-radius: 0;
     margin-bottom: 0;
     padding: 0;
+
+    // Keep the line breaks of the enclosing block
+    white-space: inherit;
+    word-wrap: inherit;
   }
 }
 
@@ -970,6 +974,36 @@ html.transition *:after {
       &:hover {
         color: var(--global-theme-color);
       }
+    }
+  }
+
+  // Heading hierarchy inside the body of a post
+  .post-content {
+    h2 {
+      font-size: 1.8rem;
+      font-weight: 400;
+      margin-top: 3rem;
+      margin-bottom: 1.1rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--global-divider-color);
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-top: 2.1rem;
+      margin-bottom: 0.7rem;
+    }
+
+    h4 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin-top: 1.6rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 + h3 {
+      margin-top: 1.2rem;
     }
   }
 }

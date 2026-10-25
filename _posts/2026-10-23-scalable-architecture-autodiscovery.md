@@ -114,8 +114,8 @@ The run used `gpt-6-astra`, a single trial, retries disabled. The agent phase to
 ### The design: Contextual-Key Gated Retrieval
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-9 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/blog/arch-autodiscovery/arch-contextual-key-unit-v1.png" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog/arch-autodiscovery/arch-contextual-key-unit-h.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
