@@ -15,7 +15,7 @@ toc:
 
 _An architecture-design problem with no reference answer: how the task was built, and one real run._
 
-The skeleton of the Transformer has not moved in years. A fundamental question remains open: Can we develop a new architectural paradigm that goes beyond the Transformer and ultimately supersedes it? Luckily, now we now have an efficient way to investigate this question with the help of advanced coding agents.
+The skeleton of the Transformer has not moved in years. A fundamental question remains open: Can we develop a new architectural paradigm that goes beyond the Transformer and ultimately supersedes it? Luckily, we now have an efficient way to investigate this question with the help of advanced coding agents.
 
 This blog is a write-up of how I turn that question into a scored task, and how `gpt-6-astra` does on this task.
 
