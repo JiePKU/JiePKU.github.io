@@ -7,6 +7,8 @@ tags: architecture agents rsi
 categories: research
 thumbnail: assets/img/blog/arch-autodiscovery/results-v3.png
 related_posts: false
+citation: true
+citation_key: zhu2026autodiscovery
 toc:
   sidebar: left
 ---
