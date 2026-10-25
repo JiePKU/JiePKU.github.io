@@ -4,13 +4,6 @@
 
 If you found this useful, please cite this as:
 
-{% capture citation_quote -%}
-> {{ site.last_name }}, {{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} ({{ page.date | date: "%b %Y" }}). {{ page.title }}. {% if site.title != 'blank' %}{{ site.title }}. {% endif %}{{ site.url }}.
-{%- endcapture %}
-{{ citation_quote | markdownify }}
-
-<p>or as a BibTeX entry:</p>
-
 {% capture citation_code -%}
 ```bibtex
 @article{ {%- if page.citation_key -%}{{ page.citation_key }}{%- else -%}{{ site.last_name | downcase }}{{ page.date | date: "%Y" }}{{ page.title | slugify }}{%- endif -%},
