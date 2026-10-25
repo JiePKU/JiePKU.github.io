@@ -17,6 +17,8 @@ The skeleton of the Transformer has not moved in years. A fundamental question r
 
 This blog is a write-up of how I turn that question into a scored task, and how `gpt-6-astra` does on this task.
 
+**Code:** the task, the harness and the evaluation ladder are at [JiePKU/scalable-architecture-autodiscovery](https://github.com/JiePKU/scalable-architecture-autodiscovery).
+
 ## 1. Motivation: Architecture matters, and it is stuck
 
 What the 2017 Transformer actually achieved was **freeing sequence modelling from the serial bottleneck of recurrence**: attention made the interactions across a whole sequence computable in one parallel pass, and "add compute, get a better model" became an engineerable fact. Scaling laws and the entire pretraining paradigm are built on that.
